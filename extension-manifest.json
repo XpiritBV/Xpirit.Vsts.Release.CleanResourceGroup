@@ -1,0 +1,80 @@
+{
+  "manifestVersion": 1,
+  "id": "PeterGroenewegen-Xpirit-Vsts-Release-CleanResourceGroup",
+  "name": "Purge resources in group",
+  "version": "1.0.2",
+  "publisher": "petergroenewegen",
+  "public": true,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Build extension that enable you to clean a resource group on azure.",
+  "categories": [
+    "Build and release"
+  ],
+  "tags": [
+    "release",
+    "build",
+    "azure",
+    "azurerm",
+    "clean",
+    "resourcegroup",
+    "resource",
+    "pipeline",
+    "infrastucture as code",
+    "arm",
+    "Xpirit",
+    "deploy",
+    "template",
+    "empty",
+    "resouce group"
+  ],
+  "screenshots": [
+    {
+      "path": "Xpirit.Vsts.Release.CleanResourceGroup.Extension/images/demo.png"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "Xpirit.Vsts.Release.CleanResourceGroup.Extension/readme.md"
+    },
+    "license": {
+      "path": "Xpirit.Vsts.Release.CleanResourceGroup.Extension/license.txt"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://pgroene.wordpress.com/2016/12/13/vsts-task-clean-resource-group/"
+    },
+    "support": {
+      "uri": "https://github.com/XpiritBV/Vsts-Release-Task-CleanResourceGroup"
+    }
+  },
+  "branding": {
+    "color": "rgb(36, 43, 50)",
+    "theme": "dark"
+  },
+  "icons": {
+    "default": "Xpirit.Vsts.Release.CleanResourceGroup.Extension/images/cleanresourcegroup.png"
+  },
+  "files": [
+    {
+      "path": "Xpirit-Vsts-Release-CleanResourceGroup"
+    }
+  ],
+
+  "contributions": [
+    {
+      "id": "Xpirit-Vsts-Release-CleanResourceGroup",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "Xpirit-Vsts-Release-CleanResourceGroup"
+      }
+    }
+  ]
+}
