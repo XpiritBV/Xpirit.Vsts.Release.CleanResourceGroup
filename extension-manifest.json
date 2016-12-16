@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "PeterGroenewegen-Xpirit-Vsts-Release-CleanResourceGroup",
   "name": "Purge resources in group",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "petergroenewegen",
   "public": true,
   "targets": [

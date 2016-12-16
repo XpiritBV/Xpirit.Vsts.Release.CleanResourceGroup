@@ -8,6 +8,6 @@ When testing the deployment of resources in a release pipeline, you want to purg
 
 To use the task, just select the connection to azure and then give the resource group name as parameter.
 
-[More inforation on blog](https://pgroene.wordpress.com/2016/12/13/vsts-task-clean-resource-group/).
-[Sources](https://pgroene.wordpress.com/2016/12/13/vsts-task-clean-resource-group/).
+[More inforation on blog](https://pgroene.wordpress.com/2016/12/13/vsts-task-clean-resource-group/)
+[Sources](https://github.com/XpiritBV/Xpirit.Vsts.Release.CleanResourceGroup)
 

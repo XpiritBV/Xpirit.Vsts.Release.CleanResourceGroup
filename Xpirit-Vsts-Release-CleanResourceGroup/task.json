@@ -1,8 +1,8 @@
 {
   "id": "31f040e5-e040-4336-878a-59a49228aa94",
-  "name": "Clean resource group",
-  "friendlyName": "Clean azure resource group",
-  "description": "Remove all resouces from a resource group",
+  "name": "Purge resources in resource group",
+  "friendlyName": "Purge resource in resource group",
+  "description": "Purge all resouces in a resource group",
   "helpMarkDown": "",
   "category": "Utility",
   "visibility": [ "Build", "Release" ],
@@ -10,7 +10,7 @@
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 1
+    "Patch": 2
   },
   "demands": [ "azureps" ],
   "minimumAgentVersion": "1.95.0",
